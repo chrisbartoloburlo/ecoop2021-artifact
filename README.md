@@ -226,7 +226,9 @@ An important class is the [`ConnectionManager`](monitor/src/main/scala/monitor/u
 
 ## Benchmarks
 
-The benchmarks can _only_ be executed on Linux, or other Unix-like systems providing [`/usr/bin/time`](https://man7.org/linux/man-pages/man1/time.1.html) --- which we use for observing CPU usage and memory consumption. The following dependencies are also required:
+The benchmarks can _only_ be executed on Linux, or other Unix-like systems providing a `/usr/bin/time` utility compatible with [GNU Time](https://www.gnu.org/software/time/) --- which we use for observing CPU usage and memory consumption.
+
+The following dependencies are also required:
 * [GNU screen](https://www.gnu.org/software/screen/)
 * Python 3 and [Matplotlib](https://matplotlib.org/)
 * [JMeter](https://jmeter.apache.org)
